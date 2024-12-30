@@ -1,9 +1,7 @@
 use core::str;
-// use csv::Result;
 use serde::de::DeserializeOwned;
 use serde::Deserialize;
 use serde::Serialize;
-// use serde_json::Result;
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::error::Error;
@@ -1414,7 +1412,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
         _ => { println!("wrong input please check your input!!!") }
     }
-    println!("{:?}", args);
     Ok(())
 }
 
